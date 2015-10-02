@@ -33,7 +33,7 @@ All other classes are then loaded from their non-standard-JAR location through a
 
 ## Intercepting the class loader
 
-The custom class loader code is based on code that I found in an article about custom class loaders on [javablogging.com](http://www.javablogging.com/java-classloader-2-write-your-own-classloader/). Their code is used to load a class from a special package with their class loader, which is indicated by console output.  
+The custom class loader code is based on code that I found in an article about custom class loaders on [javablogging.com](http://web.archive.org/web/20130529111208/http://www.javablogging.com/java-classloader-2-write-your-own-classloader). Their code is used to load a class from a special package with their class loader, which is indicated by console output.  
 
 The class loader code now works slightly different. It loades classes this way: 
 
