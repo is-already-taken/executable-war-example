@@ -22,7 +22,7 @@
 		</dependency>
 	</dependencies>
 	<build>
-		<finalName>pollscm-war</finalName>
+		<finalName>up-stream-war</finalName>
 		<plugins>
 			<plugin>
 				<groupId>org.apache.maven.plugins</groupId>
